@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Game</title>
+<link rel="stylesheet" href="quiz.css">
+
+</head>
+<body>
+
+<div id="quiz-container">
+  <h1>WELCOME TO MY QUIZ GAME</h1><br>
+  <p>NOW YOUR QUIZ WILL START EVENTUALLY. PLEASE SCROLL DOWN FOR QUESTIONS. HOPE YOU COULD PASS THIS QUIZ ABOUT ME.</p>
+
+  <div class="question">
+    <p>1. What is my favorite tv show?</p>
+    <label><input type="radio" name="q1" value="shinchan"> Shinchan</label>
+    <label><input type="radio" name="q1" value="doreimon"> Doreimon</label>
+    <label><input type="radio" name="q1" value="bayblade"> Bayblade</label>
+  </div>
+
+  <div class="question">
+    <p>2. Which is my favorite dessert?</p>
+    <label><input type="radio" name="q2" value="icecream"> Icecream</label>
+    <label><input type="radio" name="q2" value="cookies"> Cookies</label>
+    <label><input type="radio" name="q2" value="icecake"> Icecake</label>
+  </div>
+
+  <div class="question">
+    <p>3. Who is my favorite manga character?</p>
+    <label><input type="radio" name="q3" value="gojosan"> Gojosan</label>
+    <label><input type="radio" name="q3" value="renjoku"> Renjoku</label>
+    <label><input type="radio" name="q3" value="luffysan"> Luffysan</label>
+  </div>
+
+  <div class="question">
+    <p>4. What is my favorite food?</p>
+    <label><input type="radio" name="q4" value="Pizza"> Pizza</label>
+    <label><input type="radio" name="q4" value="pasta"> pasta</label>
+    <label><input type="radio" name="q4" value="briyani"> Briyani</label>
+  </div>
+
+  <div class="question">
+    <p>5. When is my bday?</p>
+    <label><input type="radio" name="q5" value="JULY 27"> JULY 27</label>
+    <label><input type="radio" name="q5" value="JUNE 6"> JUNE 6</label>
+    <label><input type="radio" name="q5" value="JUNE 7"> JUNE 7</label>
+  </div>
+
+
+  <button onclick="checkAnswers()">Submit</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="./quiz.js"></script>
+
+
+</body>
+</html>
